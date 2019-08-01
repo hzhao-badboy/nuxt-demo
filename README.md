@@ -6,7 +6,9 @@
 
 ``` bash
 # install dependencies
-$ npm run install
+node v8.x
+$ npm cache clean --force
+$ npm install --update-binary
 
 # serve with hot reload at localhost:3000
 $ npm run dev
